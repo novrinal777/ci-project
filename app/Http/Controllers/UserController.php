@@ -40,6 +40,7 @@ class UserController extends Controller
             'form_params' => $request->all()
         ];
         $result = $objUser->login($data);
+        echo "test login";
 
         return $result;
 
