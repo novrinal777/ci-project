@@ -32,6 +32,7 @@ class TestController extends Controller
         $objTest = new Test();
         $response = $objTest->getUserWishList();
         //$this->addDataToCollection($response);
+        echo "test"
         return "result = ".$response;
     }
     public function insertData(TestRequest $request)
